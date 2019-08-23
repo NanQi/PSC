@@ -1,0 +1,11 @@
+{
+  "name": "Second Token Coin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "truffle complie"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

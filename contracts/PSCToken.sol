@@ -501,12 +501,12 @@ contract PausableToken is StandardToken, Pausable {
 }
 
 /**
- * @title Second Token Coin
- * @dev https://www.my2space.com
+ * @title Pyramid Selling Coin
+ * @dev https://github.com/NanQi/PSC
  */
-contract STCToken is StandardToken, BurnableToken, MintableToken, PausableToken {
-  string public name = "Second Token Coin";
-  string public symbol = 'STC';
+contract PSCToken is StandardToken, BurnableToken, MintableToken, PausableToken {
+  string public name = "Pyramid Selling Coin";
+  string public symbol = 'PSC';
   uint public decimals = 8;
   uint public INITIAL_SUPPLY = 3600000000 * 100000000;
 

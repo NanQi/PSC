@@ -1,10 +1,10 @@
 {
-  "name": "Second Token Coin",
+  "name": "Pyramid-Selling-Coin",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "build": "truffle complie"
   },
+  "devDependencies": {},
   "dependencies": {
     "truffle-hdwallet-provider": "^1.0.17"
   }
